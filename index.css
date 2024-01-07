@@ -20,7 +20,7 @@ body {
   position: absolute;
   right: -250px;
   top: 50px;
-  visibility: hidden;
+  display: none;
   opacity: 0;
   pointer-events: none;
   transition: 0.2s all linear;
@@ -33,7 +33,7 @@ body {
   color: black;
 }
 .slider-container .slider-parent.active {
-  visibility: visible;
+  display: inline-block;
   pointer-events: inherit;
   transition: 0.2s all ease-in-out;
   opacity: 1;
